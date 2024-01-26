@@ -1,4 +1,3 @@
-// challenge 9
 import React, { useState } from 'react';
 import { gql, useQuery } from '@apollo/client';
 import { client } from './apollo';
@@ -32,7 +31,7 @@ const Weather = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Call the function to make the GraphQL query with the entered zip code
+    // call the function to make the GraphQL query with the entered zip code
   };
 
   return (
