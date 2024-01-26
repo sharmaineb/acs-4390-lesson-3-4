@@ -1,0 +1,33 @@
+/* Weather.css */
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .weather-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .zip-input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .submit-button {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .weather-results {
+    text-align: center;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
