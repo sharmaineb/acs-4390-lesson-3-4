@@ -1,4 +1,3 @@
-// challenge 11
 // require dotenv and call config
 require('dotenv').config();
 
